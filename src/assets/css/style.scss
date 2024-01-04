@@ -1,0 +1,30 @@
+.container {
+    width: 60%;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 24px;
+    background-color: rgb(245, 246, 252);
+    border-radius: 24px;
+    padding: 48px 28px;
+    position: relative;
+    .title {
+        margin: 20px 0;
+    }
+}
+
+.img {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .addBtn {
+        margin-left: 16px;
+        margin-right: 8px;
+    }
+}

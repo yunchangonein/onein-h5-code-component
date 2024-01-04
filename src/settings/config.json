@@ -1,0 +1,10 @@
+{
+  "name": "recharge",
+  "label": "充值组件",
+  "prefix": "Oc",
+  "namespace": "",
+  "debugSuffix": "debug",
+  "debugUrl": "https://admin.n.onein.cn/ns/",
+  "appId": "ddf19075-2df0-4d52-8a19-821ae002fe80",
+  "platform": "pc"
+}
