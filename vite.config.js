@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => {
   if (mode === "debug") {
     name = `${config.prefix}${config.namespace}${config.name}${config.debugSuffix}`;
   }
-  let defaultExternal = ["vue", "element-plus", "@vueuse/core", "axios"];
+  let defaultExternal = ["vue", "@nutui/nutui", "@vueuse/core", "axios"];
   if (mode === "prod") {
     defaultExternal = [...defaultExternal, ...Object.keys(pkg.dependencies)];
   }
